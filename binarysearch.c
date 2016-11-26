@@ -2,8 +2,14 @@
 #include<conio.h>
 main()
 {
- int a[50]={0,1,2,3,4,5,6,7,8,9,10};
- int i=0,n,l=0,u=9,mid,x=0;
+ int a[10];
+ int i=0,n,l=0,u=9,mid,x=0,n=0;
+ for (n = 0; n>10 ; n++)
+ {
+  printf("enter the %d number ", n);
+  scanf("%d",&a[i]);
+ }
+ //int a[50]={0,1,2,3,4,5,6,7,8,9,10};
  printf("enter the no. to find");
  scanf("%d",&n);
  while(l<=u)
